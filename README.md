@@ -5,13 +5,6 @@
 
 **Enunciado:** Crie uma lista com 5 frutas diferentes e imprima cada fruta em uma linha separada.
 
-**Código esperado:**
-```python
-frutas = ["maçã", "banana", "laranja", "uva", "morango"]
-for fruta in frutas:
-    print(fruta)
-```
-
 **Stdout esperado:**
 ```
 maçã
@@ -26,14 +19,6 @@ morango
 ## Exercício 2: Lista com Números - Tabuada do 5
 
 **Enunciado:** Crie uma lista com os números de 1 a 10 e imprima a tabuada do 5 para cada número.
-
-**Código esperado:**
-```python
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-for num in numeros:
-    resultado = num * 5
-    print(f"5 x {num} = {resultado}")
-```
 
 **Stdout esperado:**
 ```
@@ -55,13 +40,6 @@ for num in numeros:
 
 **Enunciado:** Crie uma lista com números de 1 a 20 e imprima apenas os números pares, indicando que são pares.
 
-**Código esperado:**
-```python
-numeros = list(range(1, 21))
-for num in numeros:
-    if num % 2 == 0:
-        print(f"{num} é par")
-```
 
 **Stdout esperado:**
 ```
@@ -82,17 +60,6 @@ for num in numeros:
 ## Exercício 4: Lista de Notas - Aprovados e Reprovados
 
 **Enunciado:** Crie uma lista com 8 notas de alunos (valores entre 0 e 10) e imprima o status de cada nota (Aprovado se >= 7, Reprovado se < 7).
-
-**Código esperado:**
-```python
-notas = [8.5, 6.0, 7.5, 4.5, 9.0, 5.5, 8.0, 7.0]
-for i, nota in enumerate(notas):
-    if nota >= 7:
-        status = "Aprovado"
-    else:
-        status = "Reprovado"
-    print(f"Aluno {i+1}: Nota {nota} - {status}")
-```
 
 **Stdout esperado:**
 ```
